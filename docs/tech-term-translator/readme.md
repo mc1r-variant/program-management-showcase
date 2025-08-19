@@ -10,7 +10,7 @@ This project pokes fun at everyday tools (hi, Microsoft Teams 👀) and terms th
 
 - Input or type a common tech term
 - Get a brutally honest (and funny) translation
-- Rotate quotes from everyone's favorite ghost: **Clippy**
+- Rotate quotes from everyone's favorite ghost: **Clippy** 📎
 
 ---
 
