@@ -4,7 +4,7 @@ This repository contains small, beginner-friendly projects that demonstrate how 
 
 ## 📂 Projects
 
-1. **Project Tracker App**  
+1. **[Project Tracker App](https://mc1r-variant.github.io/program-management-showcase/project-tracker-app/)**  
    A simple app to simulate tracking tasks, owners, and timelines.
 
 2. **Stakeholder Communication Generator**  
