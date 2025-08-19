@@ -43,3 +43,17 @@ document.getElementById('taskForm').addEventListener('submit', function (e) {
 
   if (!taskName || !taskOwner || !dueDate || !status) {
     alert("Please fill out all fields.");
+    return;
+  }
+
+  tasks.push({ name: taskName, owner: taskOwner, dueDate, status });
+
+  renderTasks(document.getElementById('statusFilter').value);
+  this.reset();
+});
+
+// Handle status filter change
+document.getElementById('statusFilter').addEventListener('change', function () {
+  renderTasks(this.value);
+});
+
