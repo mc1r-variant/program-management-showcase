@@ -10,8 +10,6 @@ This project demonstrates task creation, visual organization, and status-based f
 
 👉 [View on GitHub Pages](https://mc1r-variant.github.io/program-management-showcase/project-tracker-app/)
 
-> Replace `your-username` with your actual GitHub username.
-
 ---
 
 ## 🧩 Features
@@ -25,10 +23,4 @@ This project demonstrates task creation, visual organization, and status-based f
 ---
 
 ## 📷 Screenshot
-
-> _[Optional: Add a screenshot of your app here if you'd like!]_
-
----
-
-## 🛠️ Folder Structure
 
