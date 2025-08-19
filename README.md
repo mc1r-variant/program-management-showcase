@@ -10,7 +10,7 @@ This repository contains small, beginner-friendly projects that demonstrate how 
 2. **Stakeholder Communication Generator**  
    A command-line tool that outputs a sample communication plan based on input.
 
-3. **Tech Term Translator**  
+3. **[Tech Term Translator](https://mc1r-variant.github.io/program-management-showcase/tech-term-translator/)**  
    Converts technical jargon into stakeholder-friendly explanations.
 
 ## ✨ Why This Repo?
