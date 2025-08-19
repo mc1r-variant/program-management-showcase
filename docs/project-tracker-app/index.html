@@ -1,15 +1,40 @@
-<form id="taskForm">
-  <input type="text" id="taskName" placeholder="Task name" required />
-  <input type="text" id="taskOwner" placeholder="Owner" required />
-  <input type="date" id="taskDueDate" required />
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>📋 Project Tracker App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📋 Project Tracker</h1>
+  <p>Track tasks by name, owner, due date — and now with status filtering!</p>
 
-  <select id="taskStatus" required>
+  <form id="taskForm">
+    <input type="text" id="taskName" placeholder="Task name" required />
+    <input type="text" id="taskOwner" placeholder="Owner" required />
+    <input type="date" id="taskDueDate" required />
+
+    <select id="taskStatus" required>
+      <option value="To Do">To Do</option>
+      <option value="In Progress">In Progress</option>
+      <option value="Done">Done</option>
+    </select>
+
+    <button type="submit">Add Task</button>
+  </form>
+
+  <hr />
+
+  <label for="statusFilter"><strong>Filter by status:</strong></label>
+  <select id="statusFilter">
+    <option value="All">All</option>
     <option value="To Do">To Do</option>
     <option value="In Progress">In Progress</option>
     <option value="Done">Done</option>
   </select>
 
-  <button type="submit">Add Task</button>
-</form>
+  <ul id="taskList"></ul>
 
-<ul id="taskList"></ul>
+  <script src="script.js"></script>
+</body>
+</html>
