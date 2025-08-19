@@ -1,21 +1,34 @@
 # 📋 Project Tracker App
 
-A simple, browser-based app to track projects and tasks — built as part of a program management showcase.
+A simple, browser-based task tracking app built with HTML, CSS, and JavaScript — designed to showcase lightweight technical tools a program manager might prototype or spec out.
 
-## 🔍 Purpose
+This project demonstrates task creation, visual organization, and status-based filtering — all on the front end.
 
-This app demonstrates how a program manager might visualize or organize tasks across multiple projects. It’s a minimal front-end example built with HTML, CSS, and JavaScript — perfect for showcasing lightweight tooling and PM thinking.
+---
 
-## 🛠 Features
+## 🚀 Live Demo
 
-- Add project tasks via a simple form
-- Track task names, owners, and due dates
-- Tasks appear in a clean list format (single-page app)
-- Front-end only — no backend or database required
+👉 [View on GitHub Pages](https://mc1r-variant.github.io/program-management-showcase/project-tracker-app/)
 
-## 🌐 Live Demo
+> Replace `your-username` with your actual GitHub username.
 
-👉 [View on GitHub Pages](https://mc1r-variant.github.io/program-management-showcase/)
+---
 
+## 🧩 Features
 
+- ✅ Add tasks with name, owner, and due date
+- ✅ Assign a **status** to each task (To Do, In Progress, Done)
+- ✅ Visually display task status with color-coding
+- ✅ **Filter** tasks by status using a dropdown
+- 💡 No frameworks, no build tools — just plain HTML, CSS & JS
+
+---
+
+## 📷 Screenshot
+
+> _[Optional: Add a screenshot of your app here if you'd like!]_
+
+---
+
+## 🛠️ Folder Structure
 
