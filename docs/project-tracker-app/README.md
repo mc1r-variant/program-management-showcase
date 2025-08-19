@@ -15,7 +15,7 @@ This app demonstrates how a program manager might visualize or organize tasks ac
 
 ## 🌐 Live Demo
 
-👉 [View on GitHub Pages](https://mc1r-variant.github.io/program-management-showcase/project-tracker-app/)
+👉 [View on GitHub Pages](https://mc1r-variant.github.io/program-management-showcase/)
 
 ## 📁 Folder Structure
 
