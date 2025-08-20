@@ -109,9 +109,9 @@ stakeholder-comm-web/
 
 This web demo is part of a larger program management toolkit:
 
-- **[CLI Version](https://github.com/yourusername/stakeholder-communication-generator)** - Command-line tool for developers
-- **[Tech Term Translator](https://yourusername.github.io/tech-term-translator)** - Decode corporate and tech jargon
-- **[Program Management Showcase](https://yourusername.github.io/program-management-showcase)** - Complete portfolio
+- **[CLI Version](https://github.com/mc1r-variant/stakeholder-communication-generator)** - Command-line tool for developers
+- **[Tech Term Translator](https://mc1r-variant.github.io/tech-term-translator)** - Decode corporate and tech jargon
+- **[Program Management Showcase](https://mc1r-variant.github.io/program-management-showcase)** - Complete portfolio
 
 ## 💼 Portfolio Context
 
