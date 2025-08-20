@@ -8,7 +8,7 @@ This repository contains small, beginner-friendly projects that demonstrate how 
    A simple app to simulate tracking tasks, owners, and timelines.
 
 2. **[Stakeholder Communication Generator](https://mc1r-variant.github.io/program-management-showcase/Stakeholder%20Communication%20Generator)**  
-   A command-line tool that outputs a sample communication plan based on input.
+A web-based tool that helps you craft clear, professional communications for different stakeholder groups. 
 
 3. **[Tech Term Translator](https://mc1r-variant.github.io/program-management-showcase/tech-term-translator/)**  
    Converts technical jargon into stakeholder-friendly explanations.
