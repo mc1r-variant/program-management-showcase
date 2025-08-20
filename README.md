@@ -11,7 +11,7 @@ This repository contains small, beginner-friendly projects that demonstrate how 
 A web-based tool that helps you craft clear, professional communications for different stakeholder groups. 
 
 3. **[Tech Term Translator](https://mc1r-variant.github.io/program-management-showcase/tech-term-translator/)**  
-Converts technical jargon into stakeholder-friendly ~~"explanations"~~ silliness.
+Converts technical jargon into stakeholder-friendly ~~explanations~~ silliness.
 
 ## ✨ Why This Repo?
 
