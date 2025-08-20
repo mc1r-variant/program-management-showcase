@@ -105,17 +105,7 @@ stakeholder-comm-web/
 - **Accessible** - Proper contrast and semantic markup
 - **Fast & Lightweight** - No external dependencies
 
-## 🔗 Related Projects
-
-This web demo is part of a larger program management toolkit:
-
-- **[CLI Version](https://github.com/mc1r-variant/stakeholder-communication-generator)** - Command-line tool for developers
-- **[Tech Term Translator](https://mc1r-variant.github.io/tech-term-translator)** - Decode corporate and tech jargon
-- **[Program Management Showcase](https://mc1r-variant.github.io/program-management-showcase)** - Complete portfolio
-
-## 💼 Portfolio Context
-
-This project demonstrates:
+## This project demonstrates:
 
 ### Program Management Skills
 - **Stakeholder Analysis** - Understanding different stakeholder needs and communication preferences
@@ -159,9 +149,3 @@ Potential improvements being considered:
 - Calendar scheduling
 
 ---
-
-**Created as part of a program management portfolio to demonstrate practical tool-building skills and deep understanding of stakeholder communication best practices.**
-
-## 👨‍💼 About the Creator
-
-Built by a program manager who understands the daily challenges of stakeholder communication and wanted to create a practical solution that others could actually use in their work.
