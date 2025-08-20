@@ -147,5 +147,6 @@ Potential improvements being considered:
 - Custom stakeholder types
 - Email integration
 - Calendar scheduling
+- CLI Tool
 
 ---
