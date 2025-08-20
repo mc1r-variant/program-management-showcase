@@ -18,7 +18,7 @@ Converts technical jargon into stakeholder-friendly ~~"explanations"~~ silliness
  Why This Repo?
 As a program manager in tech, I believe in bridging the gap between people, process, and technology. These projects show how even non-engineering roles benefit from understanding and applying simple tools and code. 
 
-*Side effects may include: a new found exciting for learning and discovering that coding isn't as scary as it looks!* 😄
+*Side effects may include: a new found excitment for learning and discovering that coding isn't as scary as it looks!* 😄
 
 
 
