@@ -19,3 +19,10 @@ This project demonstrates task creation, visual organization, and status-based f
 - ✅ Visually display task status with color-coding
 - ✅ **Filter** tasks by status using a dropdown
 - 💡 No frameworks, no build tools — just plain HTML, CSS & JS
+
+## 🚀 Future Enhancements
+- Persistent Storage (localStorage or IndexedDB)
+- Task Editing and Deletion
+- Sorting and Advanced Filtering
+- Task Prioritization with visual indicators
+- Drag-and-Drop UI for task reordering and status changes
