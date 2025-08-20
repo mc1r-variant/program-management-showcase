@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>📢 Stakeholder Communication Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📢 Stakeholder Communication Generator</h1>
+            <p class="subtitle">Build better project communications with customized stakeholder plans</p>
+        </header>
+
+        <div class="form-container" id="formContainer">
+            <div class="step" id="step1">
+                <h2>📋 Project Details</h2>
+                
+                <div class="form-group">
+                    <label for="projectName">Project Name:</label>
+                    <input type="text" id="projectName" placeholder="Enter your project name">
+                </div>
+
+                <div class="form-group">
+                    <label for="projectType">Project Type:</label>
+                    <select id="projectType">
+                        <option value="">Select project type...</option>
+                        <option value="Product Launch">Product Launch</option>
+                        <option value="System Migration">System Migration</option>
+                        <option value="Process Change">Process Change</option>
+                        <option value="Organizational Restructure">Organizational Restructure</option>
+                        <option value="Technology Implementation">Technology Implementation</option>
+                        <option value="Policy Update">Policy Update</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="projectPhase">Current Phase:</label>
+                    <select id="projectPhase">
+                        <option value="">Select current phase...</option>
+                        <option value="Planning/Initiation">Planning/Initiation</option>
+                        <option value="Design/Development">Design/Development</option>
+                        <option value="Testing/Validation">Testing/Validation</option>
+                        <option value="Implementation/Go-live">Implementation/Go-live</option>
+                        <option value="Post-launch/Stabilization">Post-launch/Stabilization</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="projectDuration">Duration:</label>
+                    <select id="projectDuration">
+                        <option value="">Select duration...</option>
+                        <option value="Less than 1 month">Less than 1 month</option>
+                        <option value="1-3 months">1-3 months</option>
+                        <option value="3-6 months">3-6 months</option>
+                        <option value="6-12 months">6-12 months</option>
+                        <option value="More than 1 year">More than 1 year</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="impactLevel">Impact Level:</label>
+                    <select id="impactLevel">
+                        <option value="">Select impact level...</option>
+                        <option value="Low (minimal disruption)">Low (minimal disruption)</option>
+                        <option value="Medium (some workflow changes)">Medium (some workflow changes)</option>
+                        <option value="High (significant changes required)">High (significant changes required)</option>
+                    </select>
+                </div>
+
+                <button type="button" class="btn-primary" onclick="goToStep2()">Next: Select Stakeholders →</button>
+            </div>
+
+            <div class="step hidden" id="step2">
+                <h2>👥 Stakeholder Selection</h2>
+                <p>Select all stakeholder groups involved in your project:</p>
+                
+                <div class="checkbox-grid">
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="Executive Leadership/C-Suite">
+                        <span>Executive Leadership/C-Suite</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="Department Heads/Directors">
+                        <span>Department Heads/Directors</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="Project Team Members">
+                        <span>Project Team Members</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="End Users/Employees">
+                        <span>End Users/Employees</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="IT/Technical Teams">
+                        <span>IT/Technical Teams</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="Legal/Compliance">
+                        <span>Legal/Compliance</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="HR/People Operations">
+                        <span>HR/People Operations</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="External Vendors/Partners">
+                        <span>External Vendors/Partners</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="Customer Support">
+                        <span>Customer Support</span>
+                    </label>
+                    <label class="checkbox-item">
+                        <input type="checkbox" value="Marketing/Communications">
+                        <span>Marketing/Communications</span>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label for="commFrequency">Communication Frequency:</label>
+                    <select id="commFrequency">
+                        <option value="">Select frequency...</option>
+                        <option value="Daily (high-frequency updates)">Daily (high-frequency updates)</option>
+                        <option value="Weekly (regular check-ins)">Weekly (regular check-ins)</option>
+                        <option value="Bi-weekly (moderate updates)">Bi-weekly (moderate updates)</option>
+                        <option value="Monthly (milestone-based)">Monthly (milestone-based)</option>
+                        <option value="As-needed (event-driven)">As-needed (event-driven)</option>
+                    </select>
+                </div>
+
+                <div class="button-group">
+                    <button type="button" class="btn-secondary" onclick="goToStep1()">← Back</button>
+                    <button type="button" class="btn-primary" onclick="generatePlan()">Generate Plan ✨</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="results-container hidden" id="resultsContainer">
+            <div class="results-header">
+                <h2>📊 Your Communication Plan</h2>
+                <div class="button-group">
+                    <button type="button" class="btn-secondary" onclick="startOver()">← Start Over</button>
+                    <button type="button" class="btn-primary" onclick="downloadPlan()">💾 Download Plan</button>
+                </div>
+            </div>
+
+            <div class="results-content" id="resultsContent">
+                <!-- Generated content will appear here -->
+            </div>
+        </div>
+
+        <footer>
+            <p>Part of the <a href="../program-management-showcase">Program Management Showcase</a></p>
+            <p>Also available as a <a href="https://github.com/yourusername/stakeholder-communication-generator">CLI tool</a></p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
