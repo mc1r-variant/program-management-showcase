@@ -165,5 +165,3 @@ Potential improvements being considered:
 ## 👨‍💼 About the Creator
 
 Built by a program manager who understands the daily challenges of stakeholder communication and wanted to create a practical solution that others could actually use in their work.
-
-**[View Full Portfolio](https://yourusername.github.io/program-management-showcase)**
