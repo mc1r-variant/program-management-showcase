@@ -166,10 +166,7 @@ const translations = {
   "acceptance criteria": "Checkboxes that technically mean it's done.",
   "resource leveling": "Spreadsheet Tetris with human exhaustion.",
   "standup notes": "A daily ritual of pretending everything's fine.",
-  "project sponsor": "The person who disappears until there's a fire.",
-}
-
-
+  "project sponsor": "The person who disappears until there's a fire."
 };
 
 const clippyQuotes = [
@@ -275,4 +272,3 @@ document.getElementById('translateBtn').addEventListener('click', function () {
   const clippyQuote = document.getElementById('clippyQuote');
   clippyQuote.textContent = clippyQuotes[Math.floor(Math.random() * clippyQuotes.length)];
 });
-
