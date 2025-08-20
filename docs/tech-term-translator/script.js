@@ -103,7 +103,6 @@ const translations = {
   "technical debt": "Future you's problem, present you's profit.",
   "reality von tease": "Toxic manager who treats workplace drama like performance art.",
   "mvp": "Minimum Viable Product - Maximum Viable Problems.",
-  "technical debt": "Future you's problem, present you's profit.",
   "legacy code": "Code written by your predecessors' ghost.",
   "kubernetes": "Docker, but with 10x the complexity and YAML everywhere.",
   "microservices": "Monolith but distributed across 47 different servers.",
@@ -149,7 +148,7 @@ const clippyQuotes = [
   "Need help turning this buzzword into a deliverable?",
   "Tip: Try rebooting your stakeholders.",
   "Don't worry — Teams will ask you to log in again soon.",
-  "Clippy recommends: more synergy."
+  "Clippy recommends: more synergy.",
   "It looks like you're in a meeting that could have been an email...",
   "I see you're trying to find the mute button. Good luck!",
   "Would you like me to generate excuses for why your camera is off?",
@@ -232,11 +231,19 @@ const clippyQuotes = [
 
 document.getElementById('translateBtn').addEventListener('click', function () {
   const input = document.getElementById('termInput').value.toLowerCase().trim();
-  const translation = translations[input] || "Sorry, that's not in our corporate dictionary (yet).";
   const resultBox = document.getElementById('resultBox');
+
+  // ✅ Input validation
+  if (!input) {
+    resultBox.textContent = "Please enter a term to translate.";
+    return; // Exit early if input is empty
+  }
+
+  const translation = translations[input] || "Sorry, that's not in our corporate dictionary (yet).";
   resultBox.textContent = translation;
 
-  // Rotate clippy quote
+  // ✅ Rotate clippy quote
   const clippyQuote = document.getElementById('clippyQuote');
   clippyQuote.textContent = clippyQuotes[Math.floor(Math.random() * clippyQuotes.length)];
 });
+
