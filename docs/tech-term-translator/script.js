@@ -175,7 +175,7 @@ const translations = {
   "acceptance criteria": "Checkboxes that technically mean it's done.",
   "resource leveling": "Spreadsheet Tetris with human exhaustion.",
   "standup notes": "A daily ritual of pretending everything's fine.",
-  "project sponsor": "The person who disappears until there's a fire."
+  "project sponsor": "The person who disappears until there's a fire.",
   "sponsor": "The person who disappears until there's a fire.",
   "project management": "The art of herding cats while [keeping calm](https://youtu.be/nSz16ngdsG0) and pretending you have control.",
   "pmi": "The organization that turned common sense into a $500 certification exam.",
