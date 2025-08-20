@@ -15,5 +15,8 @@ A web-based tool that helps you craft clear, professional communications for dif
 
 ## ✨ Why This Repo?
 
-As a program manager in tech, I believe in bridging the gap between people, process, and technology. These projects show how even non-engineering roles benefit from understanding and applying simple tools and code.
+ Why This Repo?
+As a program manager in tech, I believe in bridging the gap between people, process, and technology. These projects show how even non-engineering roles benefit from understanding and applying simple tools and code. *Side effects may include: actually enjoying problem-solving and discovering that coding isn't as scary as it looks!* 😄
+
+
 
