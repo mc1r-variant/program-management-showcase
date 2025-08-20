@@ -1,5 +1,5 @@
 const translations = {
-   "microsoft teams": "The app that requires 3 logins and still drops your call.",
+  "microsoft teams": "The app that requires 3 logins and still drops your call.",
   "clippy": "Your overly enthusiastic but completely unhelpful paperclip coworker.",
   "ai": "Magic marketing term for 'if statements' and unfinished features.",
   "synergy": "We don't know what it means either, but it sounds important.",
@@ -140,7 +140,36 @@ const translations = {
   "data science": "Excel, but you need a masters degree.",
   "product manager": "The person who changes requirements while you sleep.",
   "stakeholder": "Anyone with opinions but no coding ability.",
-  "user story": "Fiction written by someone who's never met a user."
+  "user story": "Fiction written by someone who's never met a user.",
+  "monday.com": "A colorful way to track tasks no one is doing.",
+  "asana": "Because checking off boxes feels like progress.",
+  "trello": "Sticky notes with commitment issues.",
+  "notion": "Your second brain that still forgets deadlines.",
+  "smartsheet": "Excel that thinks it's a project manager.",
+  "confluence": "A wiki where documentation goes to be ignored.",
+  "okrs": "Goals you'll remember five minutes before the quarterly review.",
+  "gantt chart": "A visual lie about how on track the project is.",
+  "burndown chart": "Watch your hopes decline in real time.",
+  "kanban": "Moving cards from 'To Do' to 'Stuck' since forever.",
+  "resource planning": "A calendar full of people who are already overbooked.",
+  "stakeholder review": "A meeting where no one reads the deck, but everyone has feedback.",
+  "project kickoff": "The one meeting where people still have optimism.",
+  "status update": "Weekly reminder that nothing changed.",
+  "dependencies": "Reasons why it's someone else's fault.",
+  "scope creep": "When 'just one more feature' kills the timeline.",
+  "project charter": "A document we pretend to read before ignoring deadlines.",
+  "risk register": "A list of problems we’ll deal with later. Or not.",
+  "deliverables": "What we said we’d do before reality set in.",
+  "workstream": "Fancy term for 'thing someone should be doing.'",
+  "timeline": "The optimistic fantasy we all agreed to lie about.",
+  "change request": "A formal way to say 'we underestimated this.'",
+  "acceptance criteria": "Checkboxes that technically mean it's done.",
+  "resource leveling": "Spreadsheet Tetris with human exhaustion.",
+  "standup notes": "A daily ritual of pretending everything's fine.",
+  "project sponsor": "The person who disappears until there's a fire.",
+}
+
+
 };
 
 const clippyQuotes = [
