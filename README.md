@@ -7,7 +7,7 @@ This repository contains small, beginner-friendly projects that demonstrate how 
 1. **[Project Tracker App](https://mc1r-variant.github.io/program-management-showcase/project-tracker-app/)**  
    A simple app to simulate tracking tasks, owners, and timelines.
 
-2. **[Stakeholder Communication Generator](https://mc1r-variant.github.io/program-management-showcase/Stakeholder%20Communication%20Generator)**  
+2. **[Stakeholder Communication Generator](https://mc1r-variant.github.io/program-management-showcase/stakeholder-communication-generator)**  
 A web-based tool that helps you craft clear, professional communications for different stakeholder groups. 
 
 3. **[Tech Term Translator](https://mc1r-variant.github.io/program-management-showcase/tech-term-translator/)**  
