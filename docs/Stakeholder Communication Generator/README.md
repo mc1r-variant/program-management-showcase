@@ -4,7 +4,7 @@ A web-based tool that generates comprehensive stakeholder communication plans fo
 
 ## 🌐 Live Demo
 
-**[Try it now →](https://yourusername.github.io/stakeholder-comm-web)**
+**[Try it now →](https://mc1r-variant.github.io/stakeholder-comm-web)**
 
 ## ✨ Features
 
