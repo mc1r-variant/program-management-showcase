@@ -1,4 +1,4 @@
-# 😂 Tech Term Translator
+# Tech Term Translator
 
 A sarcastic glossary for modern tech jargon. Translate corporate-speak, buzzwords, and Microsoft nonsense into real talk.
 
@@ -11,17 +11,6 @@ This project pokes fun at everyday tools (hi, Microsoft Teams 👀) and terms th
 - Input or type a common tech term
 - Get a brutally honest (and funny) translation
 - Rotate quotes from everyone's favorite ghost: **Clippy** 📎
-
----
-
-## 🤖 Sample Terms
-
-| Term               | Translation                                               |
-|--------------------|-----------------------------------------------------------|
-| Microsoft Teams    | The app that requires 3 logins and still drops your call. |
-| Clippy             | Your overly enthusiastic but completely unhelpful assistant. |
-| AI                 | Fancy marketing word for “if statements.”                |
-| Jira               | Project management meets existential dread.              |
 
 ---
 
